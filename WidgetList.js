@@ -15,9 +15,11 @@ class WidgetList extends Component{
     return(
       <div>
         {this.state.loading && (<div>Loading...</div>)}
-        {this.state.widgets.each(function(widget) {
-          <h1>{widget.title}</h1>
-          <p>{widget.text}</p>
+        {this.state.widgets.map(function(widget) {
+          <div>
+            <h1>{widget.title}</h1>
+            <p>{widget.text}</p>
+          </div>
         })}
         <button onClick={this.handleSaveWidgets}>SAVE</button>
       </div>
