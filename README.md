@@ -1,12 +1,6 @@
 # react-refactor
 Sample react class component which needs refactoring.
 
-## Goals
-1. Refactor the class component into a functional component using react hooks.
-2. Tidy the code as you see fit.
-3. Resolve any potential issues, errors, or performance problems.
+This entire code for this application can be run from this repo [https://github.com/warpedpuppy/at-widget-gen](https://github.com/warpedpuppy/at-widget-gen).
 
-## Instructions
-1. Fork this repository.
-2. Commit your changes.
-3. Submit a PR.
+And it can be seen on the web here [https://mystifying-cori-0cc3b0.netlify.app/](https://mystifying-cori-0cc3b0.netlify.app/).
